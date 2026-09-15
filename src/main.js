@@ -2,7 +2,7 @@ import './style.css';
 
 document.querySelector('#app').innerHTML = `
   <h1>カウンター</h1>
-  <p id="count">0</p>
+  <p id="count" class="text-4xl font-bold">0</p>
 
   <button id="plus">増やす</button>
   <button id="minus">減らす</button>
